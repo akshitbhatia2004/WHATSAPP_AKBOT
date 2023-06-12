@@ -1,4 +1,4 @@
-FROM quay.io/repository/akshitbhatia2004/whatsapp_akbot_md
+FROM quay.io/sampandey001/secktor
 RUN git clone https://github.com/akshitbhatia/WHATSAPP_AKBOT /root/akshitbhatia2004
 WORKDIR /root/akshitbhatia2004/
 RUN npm install npm@latest
