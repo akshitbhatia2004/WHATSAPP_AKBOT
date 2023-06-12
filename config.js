@@ -15,7 +15,7 @@ global.devs = '919971606684';
 global.website = 'https://github.com/akshitbhatia2004/WHATSAPP_AKBOT' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
+  botname: process.env.BOT_NAME || '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏_𝐀𝐊𝐁𝐎𝐓',
   ownername:process.env.OWNER_NAME || 'akshitbhatia2004',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
