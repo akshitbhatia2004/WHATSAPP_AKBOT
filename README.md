@@ -46,7 +46,7 @@ mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
 ```
 3.  ***Click [FORK](https://github.com/SamPandey001/Secktor-MD/fork)***
 ## Heroku Deployment Method
-4.  ***Deploy on [Heroku](https://citel-x.herokuapp.com/heroku)***
+4.  ***Deploy on [Heroku](https://dashboard.heroku.com/new?template=https://github.com/akshitbhatia2004/WHATSAPP_AKBOT)***
 ## Koyeb Deployment Method
 5. ***[Deploy on Koyeb](https://citel-x.herokuapp.com/koyeb) and get API KEY from [here.](https://app.koyeb.com/settings/api)*** .
 
