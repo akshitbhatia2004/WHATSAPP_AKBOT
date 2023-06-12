@@ -1,17 +1,17 @@
 {
-               "name": "secktor-md",
+               "name": "WHATSAPP_AKBOT",
                "version": "0.0.7",
-               "description": "Multi device whatsapp bot by SamPandey001.",
+               "description": "Multi device whatsapp bot by akshitbhatia2004.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
-                "stop": "pm2 stop secktor"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name whatsapp_akbot",
+                "stop": "pm2 stop whatsapp_akbot"
                 },
-               "author": "SamPandey001",
+               "author": "akshitbhatia2004",
               "dependencies": {
-                       "@whiskeysockets/baileys": "git+https://github.com/sampandey001/baileys", 
+                       "@whiskeysockets/baileys": "git+https://github.com/akshitbhatia2004/baileys", 
                        "@adiwajshing/keyed-db": "^0.2.4",
                        "awesome-phonenumber": "^3.3.0",
                        "anime-character-random": "latest",
@@ -68,10 +68,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/SamPandey001/Secktor-Md.git"
+                 "url": "git+https://github.com/akshitbhatia2004/WHATSAPP_AKBOT.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/SamPandey001/Secktor-Md/issues"
+                 "url": "https://github.com/akshitbhatia2004/WHATSAPP_AKBOT/issues"
                   },
-                 "homepage": "https://github.com/SamPandey001/Secktor-Md#readme"
+                 "homepage": "https://github.com/akshitbhatia2004/WHATSAPP_AKBOT#readme"
                   }
