@@ -104,7 +104,7 @@ cmd({
 *🍁 Repo:* https://github.com/akshitbhatia2004/WHATSAPP_AKBOT/fork
 *Group:* coming soon
 *Deploy Your Own:*-
-coming soon`
+https://replit.com/github/akshitbhatia2004/WHATSAPP_AKBOT`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
