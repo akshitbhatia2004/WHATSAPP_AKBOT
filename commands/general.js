@@ -19,12 +19,12 @@ cmd({
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,Secktor>',
+    use: '<Hii,whatsapp_akbot>',
     filename: __filename,
 },
 async(Void, citel,text) => {
     let zx = text.length;
-    if (zx < 8) {
+    if (zx < 15) {
         let {data} = await axios.get(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid=[${citel.sender.split("@")[0]}]&msg=[${text}]`);
         return citel.reply(data.cnt);  
     }
@@ -37,8 +37,8 @@ async(Void, citel,text) => {
     const completion = await openai.createCompletion({
         model: "text-davinci-002",
         prompt: text,
-        temperature: 0.5,
-        max_tokens: 80,
+        temperature: 0.7,
+        max_tokens: 100,
         top_p: 1.0,
         frequency_penalty: 0.5,
         presence_penalty: 0.0,
