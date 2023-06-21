@@ -97,14 +97,14 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let { data } = await axios.get('https://api.github.com/akshitbhatia2004/WHATSAPP_AKBOT')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* citel-x.herokuapp.com/repo
-*Group:* citel-x.herokuapp.com/support
+*🍁 Repo:* https://github.com/akshitbhatia2004/WHATSAPP_AKBOT/fork
+*Group:* coming soon
 *Deploy Your Own:*-
-citel-x.herokuapp.com`
+coming soon`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
