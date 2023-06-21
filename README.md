@@ -44,7 +44,7 @@
 ```
 mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
 ```
-3.  ***Click [FORK](https://github.com/SamPandey001/Secktor-MD/fork)***
+3.  ***Click [FORK](https://https://github.com/akshitbhatia2004/WHATSAPP_AKBOT/fork)***
 ## Heroku Deployment Method
 4.  ***Deploy on [Heroku](https://dashboard.heroku.com/new?template=https://github.com/akshitbhatia2004/WHATSAPP_AKBOT)***
 ## Koyeb Deployment Method
