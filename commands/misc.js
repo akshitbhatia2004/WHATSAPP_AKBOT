@@ -59,7 +59,7 @@ async(Void, citel, text,{ isCreator }) => {
              filename: __filename,
          },
          async(Void, citel, text) => {
-             let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
+ let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
  return citel.reply(a,{packname:'Secktor',author:'ATTP'},"sticker") 
          }
      )
