@@ -24,7 +24,7 @@ cmd({
 },
 async(Void, citel,text) => {
     let zx = text.length;
-    if (zx < 15) {
+    if (zx < 50) {
         let {data} = await axios.get(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid=[${citel.sender.split("@")[0]}]&msg=[${text}]`);
         return citel.reply(data.cnt);  
     }
