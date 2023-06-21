@@ -50,7 +50,7 @@ mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
 ## Koyeb Deployment Method
 5. ***[Deploy on Koyeb](https://citel-x.herokuapp.com/koyeb) and get API KEY from [here.](https://app.koyeb.com/settings/api)*** .
 
-***Also Deploy on [Replit]( https://repl.it/github/SamPandey001/Secktor-Md)***
+***Also Deploy on [Replit]( https://repl.it/github/akshitbhatia2004/WHATSAPP_AKBOT)***
 
 6.  ***[Deploy on Railway](https://citel-x.herokuapp.com/railway)***
 
