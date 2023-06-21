@@ -120,7 +120,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "play",
+            pattern: "song",
             desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
             filename: __filename,
@@ -248,7 +248,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "audio",
+            pattern: "play",
             alias :['song'],
             desc: "Downloads audio from youtube.",
             category: "downloader",
@@ -312,7 +312,7 @@ cmd({
     //---------------------------------------------------------------------------
 
 cmd({
-            pattern: "ytmp4",
+            pattern: "mp4",
             desc: "Downloads video from youtube.",
             category: "downloader",
             filename: __filename,
@@ -380,7 +380,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-        pattern: "ytmp3",
+        pattern: "mp3",
         desc: "Downloads audio by yt link.",
         category: "downloader",
         use: '<yt video url>',
