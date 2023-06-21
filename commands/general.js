@@ -97,7 +97,7 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/akshitbhatia2004/WHATSAPP_AKBOT')
+        let { data } = await axios.get('https://github.com/akshitbhatia2004/WHATSAPP_AKBOT')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
@@ -112,7 +112,7 @@ coming soon`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "Akbot-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
