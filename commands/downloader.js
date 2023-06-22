@@ -3,9 +3,9 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
+ * @project_name : AKBOT-Md
+ * @author : akshitbhatia2004 <https://github.com/akshitbhatia2004>
+ * @description : Whatsapp_akbot,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
@@ -56,7 +56,40 @@ cmd({
         }
 
     )
-    //---------------------------------------------------------------------------
+   //---------------------------------------------------------------------------
+     cmd({
+        pattern: "yts",
+        desc: "Gives descriptive info of query from youtube..",
+        category: "downloader",
+        filename: __filename,
+        use: '<yt search text>',
+    },
+    async(Void, citel, text) => {
+        let yts = require("secktor-pack");
+        if (!text) return citel.reply(`Example : ${prefix}yts ${tlang().title} WhatsApp Bot`);
+        let search = await yts(text);
+        let textt = "*YouTube Search*\n\n Result From " + text + "\n\n───────────────────\n";
+        let no = 1;
+        for (let i of search.all) {
+            textt += `⚡ No : ${no++}\n ❤Title : ${i.title}\n♫ Type : ${
+      i.type
+    }\n🙈Views : ${i.views}\n⌛Duration : ${
+      i.timestamp
+    }\n🌟Upload At : ${i.ago}\n👑Author : ${i.author.name}\n🎵Url : ${
+      i.url
+    }\n\n──────────────\n\n`;
+        }
+        return Void.sendMessage(citel.chat, {
+            image: {
+                url: search.all[0].thumbnail,
+            },
+            caption: textt,
+        }, {
+            quoted: citel,
+        });
+    }
+)
+//---------------------------------------------------------------------------
 cmd({
             pattern: "video",
             desc: "Downloads video from yt.",
