@@ -19,7 +19,7 @@ cmd({
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,Secktor>',
+    use: '<Hii,whatsapp_akbot>',
     filename: __filename,
 },
 async(Void, citel,text) => {
