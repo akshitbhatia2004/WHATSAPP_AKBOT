@@ -19,17 +19,17 @@ cmd({
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,whatsapp_akbot>',
+    use: '<Hii,Secktor>',
     filename: __filename,
 },
 async(Void, citel,text) => {
     let zx = text.length;
-    if (zx < 50) {
+    if (zx < 8) {
         let {data} = await axios.get(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid=[${citel.sender.split("@")[0]}]&msg=[${text}]`);
         return citel.reply(data.cnt);  
     }
     if (!text) return citel.reply(`Hey there! ${citel.pushName}. How are you doing these days?`);
-     // const { Configuration, OpenAIApi } = require("openai");
+    // const { Configuration, OpenAIApi } = require("openai");
     // const configuration = new Configuration({
     //     apiKey: Config.OPENAI_API_KEY || "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",
     // });
@@ -61,6 +61,7 @@ async(Void, citel,text) => {
   console.log("GPT REPONCE : ",data); 
   if (!data.choices || data.choices.length === 0) {citel.reply("*Invalid ChatGPT API Key, Please Put New Key*"); }
   return await  citel.reply(data.choices[0].message.content)
+	
 }
 )
 
