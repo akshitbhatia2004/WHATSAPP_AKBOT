@@ -1,6 +1,6 @@
   <p align="center">  
   <a href="https://secktoruserbot.onrender.com/">
-    <img alt="secktor docs" height="300" src="https://secder.com/main.jpg">
+    <img alt="whatsapp_akbot docs" height="300" src="https://secder.com/main.jpg">
     <h1 align="center">𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏_𝐀𝐊𝐁𝐎𝐓</h1>
   </a>
 </p>
