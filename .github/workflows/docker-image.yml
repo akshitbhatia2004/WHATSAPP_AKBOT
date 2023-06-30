@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker pull quay.io/akshitbhatia2004/whatsapp_akbot_md
+      run: docker pull fusuf/whatsasena:latest
