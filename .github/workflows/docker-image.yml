@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker push akshitbhatia200/whatsapp_akbot:tagname
+      run: docker push fusuf/whatsasena:latest
