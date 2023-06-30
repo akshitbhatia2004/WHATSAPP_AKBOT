@@ -11,7 +11,7 @@
                 },
                "author": "akshitbhatia2004",
               "dependencies": {
-                       "@whiskeysockets/baileys": "git+https://github.com/akshitbhatia2004/baileys", 
+                         "@akshitbhatia2004/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
                        "awesome-phonenumber": "^3.3.0",
                        "anime-character-random": "latest",
