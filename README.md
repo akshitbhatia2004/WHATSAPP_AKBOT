@@ -11,7 +11,7 @@
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
  
-  <a aria-label="Secktor is free to use" href="https://github.com/akshitbhatia2004/WHATSAPP_AKBOT/blob/main/LICENCE" target="_blank">
+  <a aria-label="WhatsAppbot is free to use" href="https://github.com/akshitbhatia2004/WHATSAPP_AKBOT/blob/main/LICENCE" target="_blank">
     <img alt="License: GPL-3" src="https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://opensource.org/licenses/GPL-3.0/" target="_blank" />
   </a>
 </p>
@@ -36,7 +36,7 @@
 - Install [External Plugins](https://github.com/akshitbhatia2004/Secktor-Plugins)
 ## Deployment Methods
 ---
-1. ***Get [SESSION-ID](https://sites.google.com/view/qrsessionid/home) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ***Get [SESSION-ID](https://replit.com/@AkshitBhatia3/sessionid) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 2.  ***Get a Mongodb uri from [Mongodb](https://github.com/akshitbhatia2004/WHATSAPP_AKBOT/wiki/Mongodb-URI) | [Tutorial](https://www.youtube.com/).***
 
 
