@@ -3,8 +3,8 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
+ * @project_name : WhatsApp_akbot
+ * @author : akshitbhatia2004 <https://github.com/akshitbhatia2004>
  * @description : Secktor,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
@@ -52,7 +52,7 @@ async(Void, citel, text,{ isCreator }) => {
 }
 )
  //---------------------------------------------------------------------------
- cmd({
+cmd({
              pattern: "attp",
              desc: "Makes glowing sticker of text.",
              category: "sticker",
@@ -60,7 +60,7 @@ async(Void, citel, text,{ isCreator }) => {
          },
          async(Void, citel, text) => {
 let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
- return citel.reply(a,{packname:'Secktor',author:'ATTP'},"sticker") 
+ return citel.reply(a,{packname:'akshitbot',author:'ATTP'},"sticker") 
          }
      )
  cmd({
@@ -71,7 +71,7 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
          },
          async(Void, citel, text) => {
 let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
- return citel.reply(a,{packname:'Secktor',author:'TTP'},"sticker") 
+ return citel.reply(a,{packname:'akshitbot',author:'TTP'},"sticker") 
          }
      )
      //---------------------------------------------------------------------------
