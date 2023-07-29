@@ -97,16 +97,16 @@ cmd({
             pattern: "fancy",
             desc: "Makes stylish/fancy given text",
             category: "converter",
-            use: '56 AkshitBot',
+            use: '56 Secktor',
             react: "✅",
             filename: __filename
         },
         async(Void, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    "Fancy text generator\n\nExample: .fancy 32 AkshitBot\n\n"
+                    "Fancy text generator\n\nExample: .fancy 32 Secktor\n\n"
                 );
-                listall("Akshit Bot").forEach((txt, num) => {
+                listall("Secktor Bot").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await citel.reply(text);
