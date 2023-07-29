@@ -27,7 +27,7 @@
  
    <p align="center">  
   <a href="https://youtu.be0c">
-    <img alt="WhatsApp_akbot docs" height="300" src="https://t3.ft89025_b5hgHpjDprTySl8loTqJRMipySb1rO0I.jpg">
+    <img alt="WhatsApp_akbot docs" height="300" src="https://i.imgur.com/ghex9sW.jpg">
     <h1 align="center">Tap on above Image</h1>
   </a>
 </p>
