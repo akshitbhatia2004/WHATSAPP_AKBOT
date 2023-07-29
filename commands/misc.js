@@ -65,21 +65,9 @@ cmd({
                  }
              }, {
                  quoted: citel
-             })
- 
-         }
-     )
- cmd({
-             pattern: "ttp",
-             desc: "Makes static sticker of text.",
-             category: "sticker",
-             filename: __filename,
-         },
-         async(Void, citel, text) => {
-let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
- return citel.reply(a,{packname:'akshitbot',author:'TTP'},"sticker") 
-         }
-     )
+                 } 
+ }     
+ )
      //---------------------------------------------------------------------------
  cmd({
              pattern: "exec",
