@@ -59,8 +59,14 @@ cmd({
              filename: __filename,
          },
          async(Void, citel, text) => {
-let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
- return citel.reply(a,{packname:'akshitbot',author:'ATTP'},"sticker") 
+             Void.sendMessage(citel.chat, {
+                 sticker: {
+                     url: `https://api.xteam.xyz/attp?file&text=${encodeURI(text)}`
+                 }
+             }, {
+                 quoted: citel
+             })
+ 
          }
      )
  cmd({
