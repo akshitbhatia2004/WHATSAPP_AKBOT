@@ -54,20 +54,23 @@ async(Void, citel, text,{ isCreator }) => {
  //---------------------------------------------------------------------------
 cmd({
              pattern: "attp",
+
              desc: "Makes glowing sticker of text.",
+
              category: "sticker",
+
              filename: __filename,
+
          },
+
          async(Void, citel, text) => {
-             Void.sendMessage(citel.chat, {
-                 sticker: {
-                     url: `https://api.xteam.xyz/attp?file&text=${encodeURI(text)}`
-                 }
-             }, {
-                 quoted: citel
-             })
- 
+
+let a = await getBuffer(`https://api.lolhuman.xyz/api/attp?apikey=GataDios&text=${text}`)
+
+ return citel.reply(a,{packname:'AkshitBot',author:'ATTP'},"sticker") 
+
          }
+
      )
      //---------------------------------------------------------------------------
  cmd({
