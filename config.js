@@ -13,7 +13,7 @@ global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '919971606684'
 global.devs = '919971606684';
 global.website = 'https://github.com/akshitbhatia2004/WHATSAPP_AKBOT' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/ghex9sW.jpg'
 module.exports = {
   botname: process.env.BOT_NAME || '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏_𝐀𝐊𝐁𝐎𝐓',
   ownername:process.env.OWNER_NAME || 'akshitbhatia2004',
