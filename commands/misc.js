@@ -53,7 +53,8 @@ async(Void, citel, text,{ isCreator }) => {
 )
  //---------------------------------------------------------------------------
 cmd({
-             pattern: "attp",
+
+             pattern: "ttp",
 
              desc: "Makes glowing sticker of text.",
 
@@ -65,9 +66,9 @@ cmd({
 
          async(Void, citel, text) => {
 
-let a = await getBuffer(`https://api.lolhuman.xyz/api/attp?apikey=GataDios&text=${text}`)
+let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp2?apikey=GataDios&text=${text}`)
 
- return citel.reply(a,{packname:'AkshitBot',author:'ATTP'},"sticker") 
+ return citel.reply(a,{packname:'Secktor',author:'ATTP'},"sticker") 
 
          }
 
