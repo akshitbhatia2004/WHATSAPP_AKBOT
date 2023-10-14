@@ -6,12 +6,12 @@
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-               "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
+               "start": "pm2 start lib/client.js --deep-monitoring --attach --name whatsapp_akbot",
                 "stop": "pm2 stop secktor"
                 },
                "author": "SamPandey001",
               "dependencies": {
-                       "@akshitbhatia2004/baileys": "latest", 
+                       "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
                        "awesome-phonenumber": "^3.3.0",
                        "anime-character-random": "latest",
