@@ -53,11 +53,17 @@
                        "@shineiichijo/marika": "^2.0.3",           
                        "translatte": "^3.0.1",
                        "util": "^0.12.4",           
-                       "secktor-pack": "latest",
+                        "secktor-pack": "latest",
                        "ytdl-secktor": "latest",
+                       "google-image-sr": "^1.0.0",
+                       "aptoide-scraper": "^1.0.1",
+                       "getscreenshot.js": "1.0.0",
+                       "@blackamda/telegram-image-url": "^1.0.0",
+                       "fouadwa-scraper": "2.0.0",
                        "pastebin-js": "latest",
-                       "fb-info-video":"^1.0.2",
-                       "wa-sticker-formatter": "^4.3.2"
+                       "mfiredlcore-vihangayt": "^1.0.0",
+                       "wa-sticker-formatter": "^4.3.2",
+                       "wa_set_pkg":"1.0.1"
                       },
                   "directories": {
                        "lib": "lib",
