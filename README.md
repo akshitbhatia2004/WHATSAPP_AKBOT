@@ -72,4 +72,4 @@ mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority
 
 ## License
 
-The Secktor is made available under the [GPL-3 license](https://github.com/akshitbhatia2004/WHATSAPP_AKBOT/blob/main/LICENCE). 
+The akshitbot is made available under the [GPL-3 license](https://github.com/akshitbhatia2004/WHATSAPP_AKBOT/blob/main/LICENCE). 
